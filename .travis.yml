@@ -2,4 +2,5 @@ language: c
 sudo: false # only for faster builds
 script:
   - gcc printnum.c -o printnum
-  - ./printnum  
+  - make test
+  
