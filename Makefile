@@ -20,7 +20,7 @@ test1: main
 
 test2: main
 	./main inputs/test2 > output2
-	diff output2 expected/answer2
+	diff output2 expected/answer1
 
 clean: # remove all machine generated files
 	rm -f main *.o output?
